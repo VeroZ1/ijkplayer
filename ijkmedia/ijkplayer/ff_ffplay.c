@@ -49,7 +49,6 @@
 #include "libavutil/time.h"
 #include "libavformat/avformat.h"
 #include "libavcodec/ass_split.h"
-#include "ijkavutil/dict_ext.h"
 #if CONFIG_AVDEVICE
 #include "libavdevice/avdevice.h"
 #endif
