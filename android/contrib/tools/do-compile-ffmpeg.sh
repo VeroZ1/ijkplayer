@@ -318,6 +318,9 @@ make $FF_MAKE_FLAGS > /dev/null
 make install
 mkdir -p $FF_PREFIX/include/libffmpeg
 cp -f config.h $FF_PREFIX/include/libffmpeg/config.h
+cp -f libavformat/*.h $FF_PREFIX/include/libavformat/
+cp -f libavcodec/*.h $FF_PREFIX/include/libavcodec/
+cp -f libavutil/*.h $FF_PREFIX/include/libavutil/
 
 #--------------------
 echo ""
