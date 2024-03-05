@@ -1021,7 +1021,7 @@ int ff_ass_split_override_codes_v2(const ASSCodesCallbacksV2 *callbacks, void *p
 
 static void parse_ass_subtitle(const char *ass, char *output)
 {
-    ASSDialog* dialog = ff_ass_split_dialog(NULL, ass);
+    ASSDialog* dialog = ff_ass_split_dialog2(NULL, ass);
 
     if(!dialog) {
         return;
